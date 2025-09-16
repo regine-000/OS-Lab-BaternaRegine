@@ -60,7 +60,7 @@ Task C OUTPUT Simulating exec()
 09/17/2025  02:16 AM            64,079 create_two_children.exe
 09/16/2025  09:40 AM                95 hello.c
 09/16/2025  01:18 PM            61,248 hello.exe
-09/17/2025  02:42 AM             1,795 README.md     	Stop-Process -Id
+09/17/2025  02:42 AM             1,795 README.md     	
 09/17/2025  02:45 AM             1,265 replace_sim.c
 09/17/2025  02:46 AM            63,539 replace_sim.exe
               11 File(s)        323,845 bytes
