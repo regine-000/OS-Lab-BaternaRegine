@@ -35,13 +35,7 @@ Notes:
 
 
 ##TASK B OUTPUT Creating Two Children
-Parent: creating two children...
-child_echo: my PID = 37036
-child_echo: parent PID (from arg) = 5678
-child_echo: my PID = 36956
-child_echo: parent PID (from arg) = 1234
-Parent: Child 1 exited with code 55
-Parent: Child 2 exited with code 55
+<img width="886" height="325" alt="image" src="https://github.com/user-attachments/assets/4fdb9c5c-ef59-4811-9174-8748b42783cd" />
 
 Notes:
 -Both children were spawned in parallel.
@@ -85,5 +79,6 @@ create_basic: child exit code = 4294967295
 
 Normal termination: Waited for child to finish → exit code = 55
 Forced termination: Killed child → exit code ≠ 55
+
 
 
