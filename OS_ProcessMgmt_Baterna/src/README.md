@@ -35,20 +35,17 @@ Notes:
 
 
 ##TASK B OUTPUT Creating Two Children
-Parent: creating two children...
-child_echo: my PID = 37036
-child_echo: parent PID (from arg) = 5678
-child_echo: my PID = 36956
-child_echo: parent PID (from arg) = 1234
-Parent: Child 1 exited with code 55
-Parent: Child 2 exited with code 55
+<img width="946" height="196" alt="image" src="https://github.com/user-attachments/assets/a4942943-e024-43af-838d-01d97e790e3c" />
+
 
 Notes:
--Both children were spawned in parallel.
--Each reported a unique process ID (PID), confirming they are separate processes.
--The parent PID arguments were hardcoded (1234, 5678) rather than the real parent PID, but still demonstrate argument passing.
--Both children returned the same exit code (55).
--The parent correctly waited for both children and reported their results.
+The parent process successfully created two child processes in parallel.
+
+Each child reported its own unique PID, confirming that separate processes were spawned.
+
+The children were launched without passing the parent PID argument, which is why they displayed “no parent PID argument supplied.”
+
+Both children terminated with exit code 55, showing that the child program explicitly returned this value. This verifies that the parent program correctly collected and reported the children’s exit codes.
 
 
 Task C OUTPUT Simulating exec()
@@ -89,4 +86,5 @@ create_basic: child exit code = 4294967295
 
 Normal termination: Waited for child to finish → exit code = 55
 Forced termination: Killed child → exit code ≠ 55
+
 
