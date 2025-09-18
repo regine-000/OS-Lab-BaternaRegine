@@ -19,12 +19,17 @@
 
 Notes:
 
-- The `create_basic.exe` program correctly printed the parent PID (`852`).
-- The `child_echo.exe` program successfully ran and displayed:
-  - Its own PID (`16272`)
-  - The parent PID passed as an argument (`852`)
-- After the child terminated, the parent (`create_basic.exe`) retrieved and printed the child’s exit code (`55`).
-- This confirms successful process creation, argument passing, and exit code handling.
+ The `create_basic.exe` program correctly printed the parent PID (`852`).
+ 
+ The `child_echo.exe` program successfully ran and displayed:
+
+   Its own PID (`16272`)
+    
+   The parent PID passed as an argument (`852`)
+   
+ After the child terminated, the parent (`create_basic.exe`) retrieved and printed the child’s exit code (`55`).
+  
+ This confirms successful process creation, argument passing, and exit code handling.
 
 
    gcc src/child_echo.c -o child_echo.exe -mconsole
@@ -54,29 +59,38 @@ Task C OUTPUT Simulating exec()
 
                
 Parent: replacement process exited with code 0
+
 Notes:
--The parent process did not end quickly.
--It waited for the spawned process (cmd /c dir) to finish.
--The parent then exited with the same code (0).
--This shows that in Windows, we must simulate exec() using CreateProcess + WaitForSingleObject + ExitProcess.
+
+The parent process did not end quickly.
+
+It waited for the spawned process (cmd /c dir) to finish.
+
+The parent then exited with the same code (0).
+
+This shows that in Windows, we must simulate exec() using CreateProcess + WaitForSingleObject + ExitProcess.
 
 
 
 ##Task D Output
-Normal Terminaion:
-create_basic: parent PID = 34652
-child_echo: my PID = 46284
-child_echo: parent PID (from arg) = 34652
-create_basic: child exit code = 55
+<img width="1184" height="409" alt="image" src="https://github.com/user-attachments/assets/738e87dd-7b08-4045-94a2-de620907fc1e" />
+
 
 Force Termination:
+
 create_basic: parent PID = 46384
+
 child_echo: my PID = 36044
+
 child_echo: parent PID (from arg) = 46384
+
 create_basic: child exit code = 4294967295
 
+
 Normal termination: Waited for child to finish → exit code = 55
+
 Forced termination: Killed child → exit code ≠ 55
+
 
 
 
