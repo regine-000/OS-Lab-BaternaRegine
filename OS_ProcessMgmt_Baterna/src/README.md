@@ -49,18 +49,9 @@ Both children terminated with exit code 55, showing that the child program expli
 
 
 Task C OUTPUT Simulating exec()
-09/16/2025  01:23 PM             1,727 create_basic.c
-09/16/2025  01:27 PM            65,475 create_basic.exe
-09/17/2025  02:15 AM             1,873 create_two_children.c
-09/17/2025  02:16 AM            64,079 create_two_children.exe
-09/16/2025  09:40 AM                95 hello.c
-09/16/2025  01:18 PM            61,248 hello.exe
-09/17/2025  02:42 AM             1,795 README.md     	
-09/17/2025  02:45 AM             1,265 replace_sim.c
-09/17/2025  02:46 AM            63,539 replace_sim.exe
-              11 File(s)        323,845 bytes
-               2 Dir(s)  109,166,125,056 bytes free
-               
+
+<img width="886" height="325" alt="image" src="https://github.com/user-attachments/assets/98fcc55f-4394-46a0-9744-0cd1f214f71a" />
+
                
 Parent: replacement process exited with code 0
 Notes:
@@ -86,5 +77,6 @@ create_basic: child exit code = 4294967295
 
 Normal termination: Waited for child to finish → exit code = 55
 Forced termination: Killed child → exit code ≠ 55
+
 
 
