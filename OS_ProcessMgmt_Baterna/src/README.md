@@ -1,6 +1,7 @@
 
 
-## Build Instructions (VS Code + MinGW)
+
+# Build Instructions (VS Code + MinGW)
 
 1. Open the project folder `OS_LA1_ProcessMgmt_Baterna` in VS Code.
 2. Open the terminal inside VS Code.
@@ -79,6 +80,7 @@ create_basic: child exit code = 4294967295
 
 Normal termination: Waited for child to finish → exit code = 55
 Forced termination: Killed child → exit code ≠ 55
+
 
 
 
