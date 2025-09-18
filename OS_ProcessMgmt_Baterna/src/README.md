@@ -14,10 +14,8 @@
 
 
 ##Task A OUTPUT– Creating a Single Child
-create_basic: parent PID = 852
-child_echo: my PID = 16272 
-child_echo: parent PID (from arg) = 852
-create_basic: child exit code = 55
+<img width="970" height="188" alt="image" src="https://github.com/user-attachments/assets/d8143bac-7162-4c4a-b59a-f3f2d8c6af42" />
+
 
 Notes:
 
@@ -91,3 +89,4 @@ create_basic: child exit code = 4294967295
 
 Normal termination: Waited for child to finish → exit code = 55
 Forced termination: Killed child → exit code ≠ 55
+
