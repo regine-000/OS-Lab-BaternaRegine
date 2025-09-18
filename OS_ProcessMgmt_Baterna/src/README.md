@@ -12,13 +12,10 @@
 
    .\create_basic.exe
 
-<img width="970" height="188" alt="image" src="https://github.com/user-attachments/assets/8cce062e-1da9-4928-bb5d-14cd4374a8a9" />
 
 ##Task A OUTPUT– Creating a Single Child
-create_basic: parent PID = 852
-child_echo: my PID = 16272 
-child_echo: parent PID (from arg) = 852
-create_basic: child exit code = 55
+<img width="970" height="188" alt="image" src="https://github.com/user-attachments/assets/8cce062e-1da9-4928-bb5d-14cd4374a8a9" />
+
 
 Notes:
 
@@ -88,4 +85,5 @@ create_basic: child exit code = 4294967295
 
 Normal termination: Waited for child to finish → exit code = 55
 Forced termination: Killed child → exit code ≠ 55
+
 
