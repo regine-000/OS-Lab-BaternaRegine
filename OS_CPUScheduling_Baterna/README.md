@@ -18,7 +18,8 @@ P2, then 2 to P3, and return again to P1, continuing until all are complete. The
 frequent context switching, while too large makes it behave like FCFS.
 
 
-SAMPLE OUTPUTS
+
+SAMPLE OUTPUTS WITH GANTT CHARTS
 
 
 FCFS
@@ -27,8 +28,17 @@ FCFS
 
 
 
+
 SJF
 
 <img width="963" height="373" alt="image" src="https://github.com/user-attachments/assets/e0bb619e-a7f1-4d09-8c3b-2672e65d3397" />
+
+
+
+RR
+
+<img width="953" height="398" alt="image" src="https://github.com/user-attachments/assets/fb4b7c9b-2185-41a3-a494-0c687c8808d2" />
+
+
 
 
