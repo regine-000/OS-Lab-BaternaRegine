@@ -24,3 +24,6 @@ SAMPLE OUTPUTS
 FCFS
 <img width="1032" height="413" alt="image" src="https://github.com/user-attachments/assets/e70354a1-9739-47db-9a8c-ba546d95f205" />
 
+SJF
+<img width="963" height="373" alt="image" src="https://github.com/user-attachments/assets/e0bb619e-a7f1-4d09-8c3b-2672e65d3397" />
+
