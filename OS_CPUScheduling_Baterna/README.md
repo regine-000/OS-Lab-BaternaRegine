@@ -22,5 +22,5 @@ SAMPLE OUTPUTS
 
 
 FCFS
-https://github.com/regine-000/OS-Lab-BaternaRegine/blob/main/OS_CPUScheduling_Baterna/Screenshots%20(outputs)/FCFS%20output.png?raw=true
+<img width="1032" height="413" alt="image" src="https://github.com/user-attachments/assets/e70354a1-9739-47db-9a8c-ba546d95f205" />
 
