@@ -20,4 +20,6 @@ frequent context switching, while too large makes it behave like FCFS.
 
 SAMPLE OUTPUTS
 
+
 FCFS
+
